@@ -1,68 +1,50 @@
-Project Title
+# Audio/Video App
 
-One Paragraph of project description goes here
-Getting Started
+ An audio / video app built using queries and database assets  A user should be able to log in, filter and select a movie, tv show or audio based on user profile (adult or kids). An API will be built that will let a user comment on the selection, rate it, and share via social media. 
+ 
+## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-Prerequisites
+### Prerequisites
 
-What things you need to install the software and how to install them
+You’ll need Git.
+[See detailed install instructions here.](https://gist.github.com/derhuerst/1b15ff4652a867391f03)
 
-Give examples
+### Installing
 
-Installing
+From terminal:
 
-A step by step series of examples that tell you how to get a development env running
+```# Initialize git
 
-Say what the step will be
+$ git init
 
-Give the example
+# Clone this repository
 
-And repeat
+$ git clone https://github.com/smalfoy/Ali_S_AV_App.git
 
-until finished
+# Go into the repository
 
-End with an example of getting some data out of the system or using it for a little demo
-Running the tests
+$ cd Ali_S_AV_App.git
 
-Explain how to run the automated tests for this system
-Break down into end to end tests
+```
 
-Explain what these tests test and why
+Open the folder in your command line, and install the needed dependencies:
 
-Give an example
+```bash
+cd Ali_S_AV_App
+npm install
+```
 
-And coding style tests
+Finally, run `npm start` to run the Sass compiler. The site will not show properly unless these steps are followed. In development mode, the portfolio needs to be run on a live server (MAMP/WAMP) in order for the database and json to work.
 
-Explain what these tests test and why
+## Built With
 
-Give an example
+* [Gulp](https://gulpjs.com/) 
+* [SASS](https://sass-lang.com/)
+* [Vue.js](https://vuejs.org/)
+* [Git](https://git-scm.com/)
 
-Deployment
+## Authors
 
-Add additional notes about how to deploy this on a live system
-Built With
+* Shadia Ali 
 
-    Dropwizard - The web framework used
-    Maven - Dependency Management
-    ROME - Used to generate RSS Feeds
 
-Contributing
-
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
-Versioning
-
-We use SemVer for versioning. For the versions available, see the tags on this repository.
-Authors
-
-    Billie Thompson - Initial work - PurpleBooth
-
-See also the list of contributors who participated in this project.
-License
-
-This project is licensed under the MIT License - see the LICENSE.md file for details
-Acknowledgments
-
-    Hat tip to anyone whose code was used
-    Inspiration
-    etc

@@ -1,0 +1,14 @@
+.signup-container{
+height:100vh;
+}
+
+input {
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+input[type='text'] {
+  border-radius: 25px;
+  margin: 0;
+}
