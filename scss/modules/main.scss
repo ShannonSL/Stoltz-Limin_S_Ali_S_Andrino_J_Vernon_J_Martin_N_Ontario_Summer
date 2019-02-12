@@ -1,0 +1,405 @@
+//My Css
+
+
+
+body {
+	background-color: #ffffff;
+
+
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.bg{
+
+
+
+}
+
+.hidden{
+	display:none;
+}
+
+//topbar style
+
+ul li{
+	font-size:1.3rem;
+
+}
+
+* {
+  font-family:sans-serif;
+}
+
+
+li {
+  color:$black;
+  list-style:none;
+  position: relative;
+  padding-left:10px;
+  font-size:32px;
+	line-height:40px;
+}
+
+li:before {
+  font-family:FontAwesome;
+  position: absolute;
+  left: 0;
+  color:#026489;
+  font-size:32px;
+}
+
+
+li.two:before {
+   content:"\f054";
+}
+
+li:hover:before {
+  color:$menu-lines-color;
+}
+
+.topbar-center-logo {
+  background: $topbar-center-logo-bg;
+
+  .menu {
+    background: $topbar-center-logo-bg;
+
+    a {
+      color: $roku-purple;
+    }
+  }
+}
+
+.topbar-center-logo .top-bar-center {
+  flex: 1 0 auto;
+
+  @include breakpoint(small only) {
+    display: none;
+  }
+}
+
+.topbar-center-logo-mobile {
+  background: $topbar-center-logo-bg;
+
+  .menu-icon {
+    vertical-align: text-top;
+  }
+}
+
+
+//menu style
+
+.topbar-center-logo .menu a {
+    color: $roku-purple;
+}
+
+.menu-hover-lines {
+  text-align: center;
+  letter-spacing: 1px;
+  transition: $menu-hover-lines-transition;
+
+  li a {
+    padding: 0.75rem 0;
+    color: rgba($roku-purple, 0.7);
+    position: relative;
+    margin-left: 1rem;
+  }
+
+  li:first-child a {
+    margin-left: 0;
+  }
+
+  li.active > a {
+    background-color: transparent;
+  }
+
+  a:before,
+  a::after {
+    height: $menu-hover-lines-border-width;
+    position: absolute;
+    content: '';
+    transition: $menu-hover-lines-transition;
+    background-color: $menu-lines-color;
+    width: 0;
+  }
+
+  a::before {
+    top: 0;
+    left: 0;
+  }
+
+  a::after {
+    bottom: 0;
+    right: 0;
+  }
+
+  a:hover,
+  li.active > a {
+    color: $roku-purple;
+    transition: $menu-hover-lines-transition;
+  }
+
+  a:hover::before,
+  .active a::before,
+  a:hover::after,
+  .active a::after {
+    width: 100%;
+  }
+}
+
+//header
+.header-container{
+background-image: url("../images/placeHeader_desktop.png");
+height: 94vh;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+
+
+}
+
+.navi{
+	margin-left:20px;
+	margin-top:20px;
+}
+
+.motive-box{
+margin-top:25%;
+}
+
+.header-header{
+	color:#ffffff;
+	font-weight:bold;
+}
+
+.header-text{
+	color:#ffffff;
+}
+
+//activities
+.activities-container{
+
+	text-align:center;
+
+}
+
+.what-do-header{
+	color:#000;
+	font-weight:bold;
+	text-align:center;
+	margin-left:5%;
+	margin-right:5%;
+
+
+}
+
+.what-do-text{
+	color:#000;
+	text-align:center;
+	margin-left:5%;
+	margin-right:5%;
+
+}
+
+.activities-header{
+	color:#fff;
+	text-align:center;
+font-size:3.5em;
+margin-top:3%;
+
+}
+
+.camping{
+	background-image: url("../images/camping_desktop.png");
+	//background-attachment: fixed;
+	background-position: top;
+	background-repeat: no-repeat;
+	//background-size: cover;
+	margin-top:10px;
+	margin-bottom:10px;
+	height:150px;
+	}
+
+	.water-sports{
+		background-image: url("../images/watersport_desktop.png");
+		//background-attachment: fixed;
+		background-position: top;
+		background-repeat: no-repeat;
+		//background-size: cover;
+		margin-top:10px;
+		margin-bottom:10px;
+		height:150px;
+
+		}
+
+		.trails{
+			background-image: url("../images/trails_desktop.png");
+			//background-attachment: fixed;
+			background-position: top;
+			background-repeat: no-repeat;
+			//background-size: cover;
+			margin-top:10px;
+			margin-bottom:10px;
+			height:150px;
+
+			}
+
+			.amusement{
+				background-image: url("../images/amuse_desktop.png");
+				//background-attachment: fixed;
+				background-position: top;
+				background-repeat: no-repeat;
+				//background-size: cover;
+				margin-top:10px;
+				margin-bottom:10px;
+				height:150px;
+
+				}
+
+				.underwater-adventures{
+					background-image: url("../images/underwater_desktop.png");
+					//background-attachment: fixed;
+					background-position: top;
+					background-repeat: no-repeat;
+					//background-size: cover;
+					margin-top:10px;
+					margin-bottom:10px;
+					height:150px;
+
+					}
+
+					.caving{
+						background-image: url("../images/caving_desktop.png");
+						//background-attachment: fixed;
+						background-position: top;
+						background-repeat: no-repeat;
+						//background-size: cover;
+						margin-top:10px;
+						margin-bottom:10px;
+						height:150px;
+
+
+						}
+
+						//section components
+
+						.mod-container{
+							margin-left:5%;
+							text-align:center;
+						}
+
+						.camping-mod-bg{
+							background-image: url("../images/camping_desktop.png");
+							//background-attachment: fixed;
+							background-position: top;
+							background-repeat: no-repeat;
+							//background-size: cover;
+text-align:center;
+							height:150px;
+							color:#fff;
+						}
+
+						.camping-mod-bg-text{
+							color:#fff;
+							font-weight:bold;
+							margin-top:10px;
+							text-align:center;
+						}
+
+						.watersports-mod-bg{
+							background-image: url("../images/watersport_desktop.png");
+							//background-attachment: fixed;
+							background-position: top;
+							background-repeat: no-repeat;
+							//background-size: cover;
+text-align:center;
+							height:150px;
+							color:#fff;
+						}
+
+						.trails-mod-bg{
+							background-image: url("../images/trails_desktop.png");
+							//background-attachment: fixed;
+							background-position: top;
+							background-repeat: no-repeat;
+							//background-size: cover;
+text-align:center;
+							height:150px;
+							color:#fff;
+						}
+
+						.amusement-mod-bg{
+							background-image: url("../images/amuse_desktop.png");
+							//background-attachment: fixed;
+							background-position: top;
+							background-repeat: no-repeat;
+							//background-size: cover;
+text-align:center;
+							height:150px;
+							color:#fff;
+						}
+
+						.underwater-mod-bg{
+							background-image: url("../images/underwater_desktop.png");
+							//background-attachment: fixed;
+							background-position: top;
+							background-repeat: no-repeat;
+							//background-size: cover;
+text-align:center;
+							height:150px;
+							color:#fff;
+						}
+
+						.caving-mod-bg{
+							background-image: url("../images/caving_desktop.png");
+							//background-attachment: fixed;
+							background-position: top;
+							background-repeat: no-repeat;
+							//background-size: cover;
+text-align:center;
+							height:150px;
+							color:#fff;
+						}
+
+						.white{
+							background-color:#ffffff;
+						}
+
+//queries
+
+//small
+@media screen and (max-width: 39.9375em) {
+
+
+
+
+}//end small
+
+
+
+
+//medium
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+
+
+
+
+} //end medium
+
+
+
+//large
+@media screen and (min-width: 64em) {
+
+
+
+
+	} //end large
