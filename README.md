@@ -19,18 +19,18 @@ $ git init
 
 # Clone this repository
 
-$ git clone https://github.com/smalfoy/Ali_S_AV_App.git
+$ git clone https://github.com/ShannonSL/Stoltz-Limin_S_Ali_S_Andrino_J_Vernon_J_Martin_N_Ontario_Summer.git
 
 # Go into the repository
 
-$ cd Ali_S_AV_App.git
+$ cd Stoltz-Limin_S_Ali_S_Andrino_J_Vernon_J_Martin_N_Ontario_Summer.git
 
 ```
 
 Open the folder in your command line, and install the needed dependencies:
 
 ```bash
-cd Ali_S_AV_App
+cd Stoltz-Limin_S_Ali_S_Andrino_J_Vernon_J_Martin_N_Ontario_Summer.git
 npm install
 ```
 
