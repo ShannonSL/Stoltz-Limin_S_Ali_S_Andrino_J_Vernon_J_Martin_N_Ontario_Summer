@@ -46,9 +46,10 @@ Finally, run `npm start` to run the Sass compiler. The site will not show proper
 
 ## Authors
 
-* Shadia Ali 
-* Shannon Stoltz-Limin
-* Jorge Andrino Vd B
-* Jay Vernon 
+* Shadia Ali -Developer
+* Shannon Stoltz-Limin -PM
+* Jorge Andrino Vd B -Mograph/Video 
+* Jay Vernon  -Designer
+
 
 
